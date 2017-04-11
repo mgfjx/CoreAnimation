@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  CoreAnimation
+//
+//  Created by mgfjx on 2017/4/10.
+//  Copyright © 2017年 xintong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Hex.h"
+#import "UIView+AddFunc.h"
+
+#endif /* PrefixHeader_pch */
