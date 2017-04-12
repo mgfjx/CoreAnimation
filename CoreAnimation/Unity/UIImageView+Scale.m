@@ -7,7 +7,7 @@
 //
 
 #import "UIImageView+Scale.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 @interface UIImageView()<UIGestureRecognizerDelegate>
 

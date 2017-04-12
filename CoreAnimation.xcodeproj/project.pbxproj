@@ -16,6 +16,10 @@
 		EC4AC3CE1D057FC1001302DB /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3CD1D057FC1001302DB /* CoreAnimationUITests.m */; };
 		EC64DAF81E9B8559004403E0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64DAF71E9B8559004403E0 /* BaseViewController.m */; };
 		EC64DB1A1E9B8B2E004403E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64DB191E9B8B2E004403E0 /* MainViewController.m */; };
+		EC865C871E9E0CC300C08B6C /* ExplicitAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C861E9E0CC300C08B6C /* ExplicitAnimationController.m */; };
+		EC865C8A1E9E117A00C08B6C /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C891E9E117A00C08B6C /* BaseTableViewController.m */; };
+		EC865C8D1E9E129300C08B6C /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C8C1E9E129300C08B6C /* ClockViewController.m */; };
+		EC865C901E9E285200C08B6C /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C8F1E9E285200C08B6C /* KeyFrameViewController.m */; };
 		ECFD73D11E9C717B00A16DB0 /* VoiceRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD73CF1E9C717B00A16DB0 /* VoiceRecordViewController.m */; };
 		ECFD73D41E9C725300A16DB0 /* AnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD73D31E9C725300A16DB0 /* AnimationsViewController.m */; };
 		ECFD73F81E9C769600A16DB0 /* ArchiveObj.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD73EB1E9C769600A16DB0 /* ArchiveObj.m */; };
@@ -90,6 +94,14 @@
 		EC64DB141E9B86B1004403E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EC64DB181E9B8B2E004403E0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		EC64DB191E9B8B2E004403E0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EC865C851E9E0CC300C08B6C /* ExplicitAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationController.h; sourceTree = "<group>"; };
+		EC865C861E9E0CC300C08B6C /* ExplicitAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationController.m; sourceTree = "<group>"; };
+		EC865C881E9E117A00C08B6C /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		EC865C891E9E117A00C08B6C /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		EC865C8B1E9E129300C08B6C /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		EC865C8C1E9E129300C08B6C /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		EC865C8E1E9E285200C08B6C /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		EC865C8F1E9E285200C08B6C /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
 		ECFD73CE1E9C717B00A16DB0 /* VoiceRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecordViewController.h; sourceTree = "<group>"; };
 		ECFD73CF1E9C717B00A16DB0 /* VoiceRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecordViewController.m; sourceTree = "<group>"; };
 		ECFD73D21E9C725300A16DB0 /* AnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsViewController.h; sourceTree = "<group>"; };
@@ -202,12 +214,15 @@
 				ECFD74031E9CA51400A16DB0 /* SpecialLayer */,
 				ECFD74221E9CA52000A16DB0 /* Resource */,
 				ECFD74621E9CC97800A16DB0 /* ImplicitAnimation */,
+				EC865C841E9E0AB800C08B6C /* ExplicitAnimation */,
 				EC4AC3AB1D057FC1001302DB /* AppDelegate.h */,
 				EC4AC3AC1D057FC1001302DB /* AppDelegate.m */,
 				EC64DB181E9B8B2E004403E0 /* MainViewController.h */,
 				EC64DB191E9B8B2E004403E0 /* MainViewController.m */,
 				EC64DAF61E9B8559004403E0 /* BaseViewController.h */,
 				EC64DAF71E9B8559004403E0 /* BaseViewController.m */,
+				EC865C881E9E117A00C08B6C /* BaseTableViewController.h */,
+				EC865C891E9E117A00C08B6C /* BaseTableViewController.m */,
 				EC4AC3B11D057FC1001302DB /* Main.storyboard */,
 				EC4AC3B41D057FC1001302DB /* Assets.xcassets */,
 				EC4AC3B61D057FC1001302DB /* LaunchScreen.storyboard */,
@@ -241,6 +256,19 @@
 				EC4AC3CF1D057FC1001302DB /* Info.plist */,
 			);
 			path = CoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		EC865C841E9E0AB800C08B6C /* ExplicitAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EC865C851E9E0CC300C08B6C /* ExplicitAnimationController.h */,
+				EC865C861E9E0CC300C08B6C /* ExplicitAnimationController.m */,
+				EC865C8B1E9E129300C08B6C /* ClockViewController.h */,
+				EC865C8C1E9E129300C08B6C /* ClockViewController.m */,
+				EC865C8E1E9E285200C08B6C /* KeyFrameViewController.h */,
+				EC865C8F1E9E285200C08B6C /* KeyFrameViewController.m */,
+			);
+			path = ExplicitAnimation;
 			sourceTree = "<group>";
 		};
 		ECFD73AF1E9C65F800A16DB0 /* Unity */ = {
@@ -401,6 +429,7 @@
 				TargetAttributes = {
 					EC4AC3A41D057FC1001302DB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4H95452AGN;
 					};
 					EC4AC3BD1D057FC1001302DB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -479,6 +508,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECFD73F81E9C769600A16DB0 /* ArchiveObj.m in Sources */,
+				EC865C8A1E9E117A00C08B6C /* BaseTableViewController.m in Sources */,
 				ECFD73FD1E9C769600A16DB0 /* UIImageView+Scale.m in Sources */,
 				ECFD73F91E9C769600A16DB0 /* Encrypt.m in Sources */,
 				ECFD741C1E9CA51400A16DB0 /* CATextLayerController.m in Sources */,
@@ -494,6 +524,7 @@
 				ECFD74191E9CA51400A16DB0 /* AVPlayerLayerController.m in Sources */,
 				EC4AC3AD1D057FC1001302DB /* AppDelegate.m in Sources */,
 				ECFD741E1E9CA51400A16DB0 /* ReflectionViewController.m in Sources */,
+				EC865C871E9E0CC300C08B6C /* ExplicitAnimationController.m in Sources */,
 				ECFD73D11E9C717B00A16DB0 /* VoiceRecordViewController.m in Sources */,
 				ECFD74651E9CC99C00A16DB0 /* ImplicitAnimationController.m in Sources */,
 				EC4AC3AA1D057FC1001302DB /* main.m in Sources */,
@@ -501,8 +532,10 @@
 				ECFD74201E9CA51400A16DB0 /* UIScrollView+ScrollLayer.m in Sources */,
 				EC64DB1A1E9B8B2E004403E0 /* MainViewController.m in Sources */,
 				ECFD741F1E9CA51400A16DB0 /* TransformViewController.m in Sources */,
+				EC865C901E9E285200C08B6C /* KeyFrameViewController.m in Sources */,
 				ECFD73FB1E9C769600A16DB0 /* UIAlertView+ActionBlock.m in Sources */,
 				ECFD741B1E9CA51400A16DB0 /* CAGradientLayerController.m in Sources */,
+				EC865C8D1E9E129300C08B6C /* ClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4H95452AGN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = CoreAnimation/Info.plist;
@@ -660,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4H95452AGN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = CoreAnimation/Info.plist;

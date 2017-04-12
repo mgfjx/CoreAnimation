@@ -22,14 +22,15 @@
     
     CGPoint center = CGPointMake(self.view.width/2, self.view.height/2);
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, self.view.height)];
     view.backgroundColor = [UIColor lightGrayColor];
     view.center = center;
     [self.view addSubview:view];
     self.layerView = view;
     
     CALayer *layer = [CALayer layer];
-    layer.frame = CGRectMake(25, 10, 150, 150);
+    layer.frame = CGRectMake(0, 0, 150, 150);
+    layer.position = center;
     layer.backgroundColor = [UIColor randomColor].CGColor;
     
     //自定义动画
@@ -43,7 +44,7 @@
     self.colorLayer = layer;
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(25, CGRectGetMaxY(layer.frame) + 10, 150, 25);
+    btn.frame = CGRectMake(CGRectGetMinX(layer.frame), CGRectGetMaxY(layer.frame) + 10, 150, 25);
     [btn setTitle:@"Change Color" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor randomColor];

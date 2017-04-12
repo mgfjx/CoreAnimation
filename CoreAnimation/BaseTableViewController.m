@@ -1,32 +1,21 @@
 //
-//  MainViewController.m
+//  BaseTableViewController.m
 //  CoreAnimation
 //
-//  Created by mgfjx on 2017/4/10.
+//  Created by mgfjx on 2017/4/12.
 //  Copyright © 2017年 xintong. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "BaseTableViewController.h"
 
-@interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>{
-    NSDictionary *titleVCDict;
-}
-
+@interface BaseTableViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
-@implementation MainViewController
+@implementation BaseTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title = @"CoreAnimation";
-    
-    titleVCDict = @{
-                    @"专用图层":@"AnimationsViewController",
-                    @"隐式动画":@"ImplicitAnimationController",
-                    @"显式动画":@"ExplicitAnimationController",
-                    };
     
     UITableView *table = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     table.delegate = self;
