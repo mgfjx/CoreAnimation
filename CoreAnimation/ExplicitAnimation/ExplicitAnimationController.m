@@ -23,6 +23,11 @@
     titleVCDict = @{
                     @"时钟":@"ClockViewController",
                     @"KeyFrameAnimation":@"KeyFrameViewController",
+                    @"虚拟属性":@"VirtualPropertyController",
+                    @"过度动画":@"TransitionAnimationController",
+                    @"手势动画":@"GestureAnimationController",
+                    @"缓冲动画":@"BufferAnimationController",
+                    @"定时帧":@"TimerFrameController",
                     };
     
 }

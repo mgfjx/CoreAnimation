@@ -26,6 +26,8 @@
                     @"专用图层":@"AnimationsViewController",
                     @"隐式动画":@"ImplicitAnimationController",
                     @"显式动画":@"ExplicitAnimationController",
+                    @"高效绘图":@"EfficientGraphicController",
+                    @"图像IO":@"LoadAndLatentController",
                     };
     
     UITableView *table = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];

@@ -54,10 +54,13 @@
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     animation.path = bezierPath.CGPath;
     animation.duration = 4.0;
+//    animation.beginTime = 0.5;
     animation.rotationMode = kCAAnimationRotateAuto;
     animation.repeatCount = CGFLOAT_MAX;
+    animation.fillMode = kCAFillModeBoth;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
-    [shipLayer addAnimation:animation forKey:nil];
+    animation.removedOnCompletion = NO;
+    [shipLayer addAnimation:animation forKey:@"animation"];
     
 }
 

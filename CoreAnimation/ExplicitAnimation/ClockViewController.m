@@ -64,12 +64,19 @@
     }
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tick) userInfo:nil repeats:YES];
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
     
     [self updateHandsAnimated:NO];
 }
 
 - (void)tick{
     [self updateHandsAnimated:YES];
+    NSLog(@"1");
+}
+
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [self.timer invalidate];
 }
 
 - (void)updateHandsAnimated:(BOOL)animated{
@@ -96,6 +103,8 @@
         animation.toValue = [NSValue valueWithCATransform3D:transform];
         animation.duration = 0.5;
         animation.delegate = self;
+        //添加自定义缓冲
+        animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:1 :0 :0.75 :1];
         [animation setValue:handView forKey:@"handView"];
         [handView.layer addAnimation:animation forKey:nil];
     }else{

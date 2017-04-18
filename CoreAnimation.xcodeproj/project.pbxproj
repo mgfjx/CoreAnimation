@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3C37C01EA06FE2006E60C7 /* TimerFrameController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3C37BF1EA06FE2006E60C7 /* TimerFrameController.m */; };
+		EC3C37C51EA09B6F006E60C7 /* EfficientGraphicController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3C37C41EA09B6F006E60C7 /* EfficientGraphicController.m */; };
+		EC3C37C81EA09C49006E60C7 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3C37C71EA09C49006E60C7 /* DrawingView.m */; };
+		EC3C37CC1EA0AF3A006E60C7 /* LoadAndLatentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3C37CB1EA0AF3A006E60C7 /* LoadAndLatentController.m */; };
+		EC3C37D01EA0CB94006E60C7 /* ice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3C37CF1EA0CB94006E60C7 /* ice@2x.png */; };
+		EC3C37D31EA0CC73006E60C7 /* CAEmitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3C37D21EA0CC73006E60C7 /* CAEmitterController.m */; };
 		EC4AC3AA1D057FC1001302DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3A91D057FC1001302DB /* main.m */; };
 		EC4AC3AD1D057FC1001302DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3AC1D057FC1001302DB /* AppDelegate.m */; };
 		EC4AC3B31D057FC1001302DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4AC3B11D057FC1001302DB /* Main.storyboard */; };
@@ -16,6 +22,10 @@
 		EC4AC3CE1D057FC1001302DB /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4AC3CD1D057FC1001302DB /* CoreAnimationUITests.m */; };
 		EC64DAF81E9B8559004403E0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64DAF71E9B8559004403E0 /* BaseViewController.m */; };
 		EC64DB1A1E9B8B2E004403E0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64DB191E9B8B2E004403E0 /* MainViewController.m */; };
+		EC6A042D1E9F09B200C31AEF /* VirtualPropertyController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A042C1E9F09B200C31AEF /* VirtualPropertyController.m */; };
+		EC6A04301E9F14A600C31AEF /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A042F1E9F14A600C31AEF /* TransitionAnimationController.m */; };
+		EC6A04331E9F6AC000C31AEF /* GestureAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A04321E9F6AC000C31AEF /* GestureAnimationController.m */; };
+		EC6A04361E9F78B100C31AEF /* BufferAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A04351E9F78B100C31AEF /* BufferAnimationController.m */; };
 		EC865C871E9E0CC300C08B6C /* ExplicitAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C861E9E0CC300C08B6C /* ExplicitAnimationController.m */; };
 		EC865C8A1E9E117A00C08B6C /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C891E9E117A00C08B6C /* BaseTableViewController.m */; };
 		EC865C8D1E9E129300C08B6C /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC865C8C1E9E129300C08B6C /* ClockViewController.m */; };
@@ -75,6 +85,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC3C37BE1EA06FE2006E60C7 /* TimerFrameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerFrameController.h; sourceTree = "<group>"; };
+		EC3C37BF1EA06FE2006E60C7 /* TimerFrameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerFrameController.m; sourceTree = "<group>"; };
+		EC3C37C31EA09B6F006E60C7 /* EfficientGraphicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EfficientGraphicController.h; sourceTree = "<group>"; };
+		EC3C37C41EA09B6F006E60C7 /* EfficientGraphicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EfficientGraphicController.m; sourceTree = "<group>"; };
+		EC3C37C61EA09C49006E60C7 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		EC3C37C71EA09C49006E60C7 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		EC3C37CA1EA0AF3A006E60C7 /* LoadAndLatentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAndLatentController.h; sourceTree = "<group>"; };
+		EC3C37CB1EA0AF3A006E60C7 /* LoadAndLatentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAndLatentController.m; sourceTree = "<group>"; };
+		EC3C37CF1EA0CB94006E60C7 /* ice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice@2x.png"; sourceTree = "<group>"; };
+		EC3C37D11EA0CC73006E60C7 /* CAEmitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterController.h; sourceTree = "<group>"; };
+		EC3C37D21EA0CC73006E60C7 /* CAEmitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterController.m; sourceTree = "<group>"; };
 		EC4AC3A51D057FC1001302DB /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4AC3A91D057FC1001302DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC4AC3AB1D057FC1001302DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +115,14 @@
 		EC64DB141E9B86B1004403E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EC64DB181E9B8B2E004403E0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		EC64DB191E9B8B2E004403E0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EC6A042B1E9F09B200C31AEF /* VirtualPropertyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualPropertyController.h; sourceTree = "<group>"; };
+		EC6A042C1E9F09B200C31AEF /* VirtualPropertyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualPropertyController.m; sourceTree = "<group>"; };
+		EC6A042E1E9F14A600C31AEF /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
+		EC6A042F1E9F14A600C31AEF /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
+		EC6A04311E9F6AC000C31AEF /* GestureAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureAnimationController.h; sourceTree = "<group>"; };
+		EC6A04321E9F6AC000C31AEF /* GestureAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureAnimationController.m; sourceTree = "<group>"; };
+		EC6A04341E9F78B100C31AEF /* BufferAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferAnimationController.h; sourceTree = "<group>"; };
+		EC6A04351E9F78B100C31AEF /* BufferAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferAnimationController.m; sourceTree = "<group>"; };
 		EC865C851E9E0CC300C08B6C /* ExplicitAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationController.h; sourceTree = "<group>"; };
 		EC865C861E9E0CC300C08B6C /* ExplicitAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationController.m; sourceTree = "<group>"; };
 		EC865C881E9E117A00C08B6C /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
@@ -185,6 +214,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC3C37C21EA09B49006E60C7 /* EfficientGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C37C31EA09B6F006E60C7 /* EfficientGraphicController.h */,
+				EC3C37C41EA09B6F006E60C7 /* EfficientGraphicController.m */,
+				EC3C37C61EA09C49006E60C7 /* DrawingView.h */,
+				EC3C37C71EA09C49006E60C7 /* DrawingView.m */,
+			);
+			path = EfficientGraphic;
+			sourceTree = "<group>";
+		};
+		EC3C37C91EA0AEDD006E60C7 /* ImageIO */ = {
+			isa = PBXGroup;
+			children = (
+				EC3C37CA1EA0AF3A006E60C7 /* LoadAndLatentController.h */,
+				EC3C37CB1EA0AF3A006E60C7 /* LoadAndLatentController.m */,
+			);
+			path = ImageIO;
+			sourceTree = "<group>";
+		};
 		EC4AC39C1D057FC1001302DB = {
 			isa = PBXGroup;
 			children = (
@@ -212,9 +261,11 @@
 				ECFD73CB1E9C717B00A16DB0 /* Animations */,
 				ECFD73AF1E9C65F800A16DB0 /* Unity */,
 				ECFD74031E9CA51400A16DB0 /* SpecialLayer */,
-				ECFD74221E9CA52000A16DB0 /* Resource */,
 				ECFD74621E9CC97800A16DB0 /* ImplicitAnimation */,
 				EC865C841E9E0AB800C08B6C /* ExplicitAnimation */,
+				EC3C37C21EA09B49006E60C7 /* EfficientGraphic */,
+				EC3C37C91EA0AEDD006E60C7 /* ImageIO */,
+				ECFD74221E9CA52000A16DB0 /* Resource */,
 				EC4AC3AB1D057FC1001302DB /* AppDelegate.h */,
 				EC4AC3AC1D057FC1001302DB /* AppDelegate.m */,
 				EC64DB181E9B8B2E004403E0 /* MainViewController.h */,
@@ -267,6 +318,16 @@
 				EC865C8C1E9E129300C08B6C /* ClockViewController.m */,
 				EC865C8E1E9E285200C08B6C /* KeyFrameViewController.h */,
 				EC865C8F1E9E285200C08B6C /* KeyFrameViewController.m */,
+				EC6A042B1E9F09B200C31AEF /* VirtualPropertyController.h */,
+				EC6A042C1E9F09B200C31AEF /* VirtualPropertyController.m */,
+				EC6A042E1E9F14A600C31AEF /* TransitionAnimationController.h */,
+				EC6A042F1E9F14A600C31AEF /* TransitionAnimationController.m */,
+				EC6A04311E9F6AC000C31AEF /* GestureAnimationController.h */,
+				EC6A04321E9F6AC000C31AEF /* GestureAnimationController.m */,
+				EC6A04341E9F78B100C31AEF /* BufferAnimationController.h */,
+				EC6A04351E9F78B100C31AEF /* BufferAnimationController.m */,
+				EC3C37BE1EA06FE2006E60C7 /* TimerFrameController.h */,
+				EC3C37BF1EA06FE2006E60C7 /* TimerFrameController.m */,
 			);
 			path = ExplicitAnimation;
 			sourceTree = "<group>";
@@ -314,6 +375,8 @@
 				ECFD74071E9CA51400A16DB0 /* AVPlayerLayerController.m */,
 				ECFD74081E9CA51400A16DB0 /* CAEmitterLayerController.h */,
 				ECFD74091E9CA51400A16DB0 /* CAEmitterLayerController.m */,
+				EC3C37D11EA0CC73006E60C7 /* CAEmitterController.h */,
+				EC3C37D21EA0CC73006E60C7 /* CAEmitterController.m */,
 				ECFD740A1E9CA51400A16DB0 /* CAGradientLayerController.h */,
 				ECFD740B1E9CA51400A16DB0 /* CAGradientLayerController.m */,
 				ECFD740C1E9CA51400A16DB0 /* CATextLayerController.h */,
@@ -335,6 +398,7 @@
 		ECFD74221E9CA52000A16DB0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EC3C37CF1EA0CB94006E60C7 /* ice@2x.png */,
 				ECFD74231E9CA52000A16DB0 /* 2.jpg */,
 				ECFD74241E9CA52000A16DB0 /* exp.png */,
 				ECFD74251E9CA52000A16DB0 /* f.png */,
@@ -467,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECFD743D1E9CA52000A16DB0 /* slider.png in Resources */,
+				EC3C37D01EA0CB94006E60C7 /* ice@2x.png in Resources */,
 				ECFD743E1E9CA52000A16DB0 /* snow.jpg in Resources */,
 				ECFD743C1E9CA52000A16DB0 /* sec.png in Resources */,
 				ECFD74341E9CA52000A16DB0 /* fire.png in Resources */,
@@ -509,6 +574,7 @@
 			files = (
 				ECFD73F81E9C769600A16DB0 /* ArchiveObj.m in Sources */,
 				EC865C8A1E9E117A00C08B6C /* BaseTableViewController.m in Sources */,
+				EC3C37D31EA0CC73006E60C7 /* CAEmitterController.m in Sources */,
 				ECFD73FD1E9C769600A16DB0 /* UIImageView+Scale.m in Sources */,
 				ECFD73F91E9C769600A16DB0 /* Encrypt.m in Sources */,
 				ECFD741C1E9CA51400A16DB0 /* CATextLayerController.m in Sources */,
@@ -518,6 +584,8 @@
 				ECFD73D41E9C725300A16DB0 /* AnimationsViewController.m in Sources */,
 				ECFD741A1E9CA51400A16DB0 /* CAEmitterLayerController.m in Sources */,
 				ECFD741D1E9CA51400A16DB0 /* ReflectionView.m in Sources */,
+				EC3C37C81EA09C49006E60C7 /* DrawingView.m in Sources */,
+				EC3C37CC1EA0AF3A006E60C7 /* LoadAndLatentController.m in Sources */,
 				ECFD74181E9CA51400A16DB0 /* AVAssetViewController.m in Sources */,
 				ECFD74211E9CA51400A16DB0 /* VideoPlayerView.m in Sources */,
 				ECFD73FE1E9C769600A16DB0 /* UIView+AddFunc.m in Sources */,
@@ -526,16 +594,22 @@
 				ECFD741E1E9CA51400A16DB0 /* ReflectionViewController.m in Sources */,
 				EC865C871E9E0CC300C08B6C /* ExplicitAnimationController.m in Sources */,
 				ECFD73D11E9C717B00A16DB0 /* VoiceRecordViewController.m in Sources */,
+				EC6A04361E9F78B100C31AEF /* BufferAnimationController.m in Sources */,
 				ECFD74651E9CC99C00A16DB0 /* ImplicitAnimationController.m in Sources */,
 				EC4AC3AA1D057FC1001302DB /* main.m in Sources */,
 				ECFD73FA1E9C769600A16DB0 /* TransitionManager.m in Sources */,
+				EC3C37C01EA06FE2006E60C7 /* TimerFrameController.m in Sources */,
+				EC6A04301E9F14A600C31AEF /* TransitionAnimationController.m in Sources */,
 				ECFD74201E9CA51400A16DB0 /* UIScrollView+ScrollLayer.m in Sources */,
 				EC64DB1A1E9B8B2E004403E0 /* MainViewController.m in Sources */,
 				ECFD741F1E9CA51400A16DB0 /* TransformViewController.m in Sources */,
+				EC6A04331E9F6AC000C31AEF /* GestureAnimationController.m in Sources */,
 				EC865C901E9E285200C08B6C /* KeyFrameViewController.m in Sources */,
+				EC6A042D1E9F09B200C31AEF /* VirtualPropertyController.m in Sources */,
 				ECFD73FB1E9C769600A16DB0 /* UIAlertView+ActionBlock.m in Sources */,
 				ECFD741B1E9CA51400A16DB0 /* CAGradientLayerController.m in Sources */,
 				EC865C8D1E9E129300C08B6C /* ClockViewController.m in Sources */,
+				EC3C37C51EA09B6F006E60C7 /* EfficientGraphicController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
